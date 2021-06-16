@@ -1,0 +1,16 @@
+.main {
+  flex-direction: row;
+}
+
+.mainDate {
+  height: 500px;
+}
+
+.calendarSection {
+  height: 500px;
+  justify-content: center;
+}
+
+.calendarSection h2 {
+  text-align: center;
+}

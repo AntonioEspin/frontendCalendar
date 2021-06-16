@@ -1,9 +1,9 @@
-import {getDate, getDay, getMonth, getYear} from '../getAllDate.js'
+import {currentDay, getDay, monthsNames, currentYear} from '../getAllDates.js'
 
 export const mainDate = () => {
   const view = `
-    <div class="principalDay">${getDate()}</div>
-    <div class="fullDate">${getDay()} - ${getMonth()} - ${getYear()}</div>
+    <div class="principalDay">${currentDay}</div>
+    <div class="fullDate">${getDay()} - ${monthsNames} - ${currentYear}</div>
   `
   return view
 }

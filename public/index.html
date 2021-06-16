@@ -7,30 +7,31 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../src/styles/main.css">
+  <link rel="stylesheet" href="../src/styles/laptop.css" media="(min-width: 1020px)">
   <title>Frontend Calendar</title>
 </head>
 <body>
   <main class="main">
     <div class="mainDate" id="mainDate"></div>
-      <div class="calendarSection" id="calendarSection">
-        <h2 id="year"></h2>
-        <div class="calendarSection__header">
-          <button id="prevMonth"> < </button>
-          <span id="month"></span>
-          <button id="nextMonth"> > </button>
-        </div>
-      
-        <div class="calendarSection__nameDays">
-          <span>Dom</span>
-          <span>Lun</span>
-          <span>Mar</span>
-          <span>Mie</span>
-          <span>Jue</span>
-          <span>Vie</span>
-          <span>Sab</span>
-        </div>
+    <div class="calendarSection" id="calendarSection">
+      <h2 id="year"></h2>
+      <div class="calendarSection__header">
+        <button id="prevMonth"> < </button>
+        <span id="month"></span>
+        <button id="nextMonth"> > </button>
       </div>
-    <div class="calendarSection__allDays" id="allDays"></div>
+    
+      <div class="calendarSection__nameDays">
+        <span>Dom</span>
+        <span>Lun</span>
+        <span>Mar</span>
+        <span>Mie</span>
+        <span>Jue</span>
+        <span>Vie</span>
+        <span>Sab</span>
+      </div>
+      <div class="calendarSection__allDays" id="allDays"></div>
+    </div>
   </main>
   <script src="../src/index.js" type="module"></script>
 </body>
